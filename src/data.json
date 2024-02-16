@@ -1,0 +1,98 @@
+{
+    "user_details" :[
+           {
+           "id":1,
+           "name": "Ram Charan",
+           "bio":"Ram Charan is an accomplished writer with a deep passion for storytelling and a keen eye for the nuances of the world around us. As a dedicated National Section Writer for our Oneindia website, Ram brings a wealth of knowledge and a unique perspective to the table.",
+           "no_of_posts":40,
+           "no_of_followers":3000,
+           "no_of_impressions":2000
+           }
+    ],
+    "top_posts" :[{
+        "name":"India Maldives Issue"   
+    },{
+        "name" :"Israel Palestine war"
+    },{
+        "name" :"India Becomes World's Population Topper"
+    },{
+        "name" :"Parliament Security Breach"
+    },{
+        "name" :"IND vs ENG Second Test"
+    }],
+    "posts" :[{
+    "id":1,
+    "headline":"India-Maldives ties hit a rough patch after ministers tweets.",
+    "thumbnailUrl":"./images/mmaldives.jpg",
+    "date":"02/02/2024"
+},{
+    "id":2,
+    "headline":"Modi inaugurates 1st Hindu temple in Abu Dhabi, largest in the Gulf.",
+    "thumbnailUrl":"./images/hindutemple.webp",
+    "date":"9/02/2024"
+},{
+         "id":3,
+         "headline":"Protesting wrestlers rule out hitting roads again, say fight against WFI chief will be just a legal battle.",
+         "thumbnailUrl":"./images/wrestlers.webp",
+         "date":"22/02/2023"
+    },{
+        "id":4,
+        "headline":"Major earthquake kills 3,700 in Turkey and Syria, weather hits survivors.",
+        "thumbnailUrl":"./images/earthquake1.webp",
+        "date":"02/03/2023"
+   },{
+    "id":5,
+    "headline":"Manish Sisodia arrested after hours of questioning by CBI in Delhi liquor policy case.",
+    "thumbnailUrl":"./images/arrest.jpg",
+    "date":"27/02/2023"
+},{
+    "id":6,
+    "headline":"India Becomes Most Populous Nation.",
+    "thumbnailUrl":"./images/population.jpg",
+    "date":"13/09/2023"
+}
+],
+"bookmarks" :[{
+    "id":1,
+    "headline":"How the idea of India Union Territories was concived and executed.",
+    "thumbnailUrl":"./images/union-territories-of-india.webp",
+    "date":"02/02/2024"
+},{
+    "id":2,
+    "headline":"The bloddy history behind how Israel,and palestine,came to into existance.",
+    "thumbnailUrl":"./images/israel.jpg",
+    "date":"9/02/2024"
+},{
+         "id":3,
+         "headline":"The forgotten story of Calcutta's once thriving japanese community.",
+         "thumbnailUrl":"./images/culcatta.webp",
+         "date":"22/02/2023"
+    },{
+        "id":4,
+        "headline":"India Becomes Most Populous Nation.",
+        "thumbnailUrl":"./images/population.jpg",
+        "date":"13/09/2023"
+    }],
+   "liked_stories" :[{
+    "id":1,
+    "headline":"India Becomes Most Populous Nation.",
+    "thumbnailUrl":"./images/population.jpg",
+    "date":"13/09/2023"
+},{
+    "id":2,
+    "headline":"The forgotten story of Calcutta's once thriving japanese community.",
+    "thumbnailUrl":"./images/culcatta.webp",
+    "date":"22/02/2023"
+},{
+    "id":3,
+    "headline":"Manish Sisodia arrested after hours of questioning by CBI in Delhi liquor policy case.",
+    "thumbnailUrl":"./images/arrest.jpg",
+    "date":"27/02/2023"
+},
+{
+    "id":4,
+    "headline":"Major earthquake kills 3,700 in Turkey and Syria, weather hits survivors.",
+    "thumbnailUrl":"./images/earthquake1.webp",
+    "date":"02/03/2023"
+}]
+}

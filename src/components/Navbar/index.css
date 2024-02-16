@@ -1,0 +1,165 @@
+.nav_light{
+  background-color: #D3D3D3;
+  font-family: sans-serif;
+  height:100%;
+  align-items:center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+
+  font-family:"roboto";
+
+  width:100%;      
+}
+
+.nav_dark{
+  background-color: #232B2B;
+  font-family: sans-serif;
+  height:100%;
+  align-items:center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+
+  font-family:"roboto";
+
+  width:100%;      
+}
+.navelements{
+  margin-right: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color:azure;
+  align-self:center;
+  
+ }
+ @media (min-width:769px){
+   .navelements{
+     margin-right: 5px;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     list-style: none;
+     color:azure;
+     align-self:center;
+     
+    }
+ }
+ .nav_ele_light{
+  font-size: 10px;
+
+  color:black;
+  text-decoration: 'none';
+  margin:3px;
+  align-items: center;
+}
+
+.nav_ele_dark{
+  font-size: 10px;
+  color:white;
+  text-decoration: 'none' !important;
+  margin:3px;
+  align-items: center;
+}
+
+@media (min-width:769px){
+  .nav_ele_light{
+      font-size: 20px;
+      color:black;
+      margin:12px;
+    }
+  
+    .nav_ele_dark{
+      font-size: 20px;
+      
+      color:white;
+      margin:12px;
+    }
+    
+}
+
+.navelements.active{
+  background-color: grey;
+  color:black;
+  font-weight:bold;
+}
+.flex{
+  display: flex;
+  width:90%;
+  margin-left: 5%;
+  height:100%;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.website_logo{
+  height:100%;
+  width:40px;
+  margin-left:20px;
+  border-radius: 10px;;
+}
+@media (min-width:769px){
+  .website_logo{
+    height:100%;
+    width:60px;
+    border-radius: 10px;;
+  }
+    }
+    .darkmodeButton{
+      height:100%;
+      width:100%;
+      background-color: transparent;
+      border: 0px;
+    }
+    .nav_buttons{
+      display: flex;
+      width:5%;
+      margin-right: 16%;
+    }
+    @media (min-width:769px) {
+      .nav_buttons{
+        display: flex;
+        width:5%;
+        margin-right: 7%;
+      }
+    }
+    .darkmodeButton_icon_light{
+      height: 20px;
+      width: 20px;
+      color:black;
+    }
+    .darkmodeButton_icon_dark{
+      height: 20px;
+      width: 20px;
+      color:white;
+    }
+  @media (min-width:769px){
+      .darkmodeButton_icon_light{
+        height: 40px;
+        width: 40px;
+        color:black;
+      }
+      .darkmodeButton_icon_dark{
+        height: 40px;
+        width: 40px;
+        color:white;
+      }
+      
+    }
+
+    .logout_button{
+      height:100%;
+      width:100%;
+      border:0px;
+      background-color: transparent;
+    }
+    
+    .settings_button{
+      height:100%;
+      width:100%;
+      border:0px;
+      background-color: transparent;
+    }

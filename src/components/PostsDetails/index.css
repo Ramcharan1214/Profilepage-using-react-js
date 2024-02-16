@@ -1,0 +1,134 @@
+.posts_details{
+    padding: 0px;
+}
+@media (min-width:500px) and (max-width:890px){
+    .posts_details{
+        padding: 0px;
+        width: 100%;
+    }
+}
+.post_item_light{
+    list-style: none;
+    height:100%;
+    padding:10px;
+    width: 100%;
+    margin-right: 10px;
+    border: 2px solid #D3D3D3;
+    box-shadow: 0 0 5px 	rgb(187, 176, 176);
+    
+}
+.post_item_dark{
+    list-style: none;
+    height:100%;
+    padding:10px;
+    width: 100%;
+    margin-right: 10px;
+    background-color: #D3D3D3;
+    border: 2px solid #D3D3D3;
+    
+    margin-bottom: 10px;;
+}
+
+
+@media (min-width:500px) and (max-width:890px){
+    .post_item_light{
+        list-style: none;
+        height:100%;
+        padding:10px;
+        width: 300px;
+        margin-right: 10px;
+        
+    }
+    .post_item_dark{
+        list-style: none;
+        height:100%;
+        padding:10px;
+        width: 300px;
+        margin-right: 10px;
+        
+    }
+}
+@media (min-width:891px){
+    .post_item_light{
+        list-style: none;
+        height:100%;
+        padding:10px;
+        width: 600px;
+        margin-right: 10px;
+        
+    }
+    .post_item_dark{
+        list-style: none;
+        height:100%;
+        padding:10px;
+        width: 600px;
+        margin-right: 10px;
+        
+    }
+}
+.thumbnail_image{
+    height:100px;
+    width: 200px;
+}
+@media (min-width:481px) and (max-width:890px){
+    .thumbnail_image{
+        height:250px;
+        width: 100%;
+    }
+}
+@media (min-width:891px){
+    .thumbnail_image{
+        height:300px;
+        width: 600px;
+    }
+}
+
+.post_item h1{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.post_item h1:hover{
+    color: blue;
+    cursor:pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.post_item p{
+       font-size: 12px;
+       color: rgb(182, 171, 171);
+       
+}
+.posts_con{
+    margin: 0;
+padding: 0;
+border: none;
+list-style-type: none;
+    display:inline;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.view_post_button{
+    height: 30px;
+    width: 100px;
+    border-radius:10px ;
+    color: black;
+    border:0px;
+    text-decoration: underline;
+    background-color:transparent ;
+    font-family: sans-serif;
+}
+
+.view_post_button:hover{
+    
+    cursor:pointer;
+    color: blue;
+    
+}
+.button_con{
+    display: flex;
+    justify-content: flex-end;
+}
